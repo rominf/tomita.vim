@@ -1,3 +1,4 @@
+# Add this (without this line, as ctags don't understand comments!) to your ~/.ctags file if you want ctags to extract terminals
 --langdef=tomitagrammar
 --langmap=tomitagrammar:.cxx
 --regex-tomitagrammar=/^([a-zA-Z0-9_.]+)\s*->\s/\1/t,terminals/
